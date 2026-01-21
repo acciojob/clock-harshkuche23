@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const timer = document.getElementById("timer");
 
 function updateTimer() {
@@ -6,7 +5,7 @@ function updateTimer() {
     timer.innerText = now.toString();
 }
 
-// Initial call
+// Initial render
 updateTimer();
 
 // Update every second
